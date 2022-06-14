@@ -2,7 +2,7 @@
 #### I am a Devops Engineer
 I am currently learning React JS and uploading the learnings in this Github 
 
-Skills: PYTHON / REACT / JS / MONGO DB / HTML / CSS
+Skills: PYTHON / REACT /Next JS / JS / MONGO DB / HTML / CSS
 
 - 🌱 I’m currently learning REACT JS 
 - 📫 How to reach me: https://t.me/MAHIDHARKAKUMANI 
