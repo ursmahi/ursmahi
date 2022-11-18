@@ -1,7 +1,7 @@
   ## Hello there 👋
   
   
-  ## About Me 👩‍💼
+  ## About Me 👨‍💻
   
 - 👀 I am MAHIDHAR KAKUMANI.
 - 💻 I’m a full stack MERN developer. 
