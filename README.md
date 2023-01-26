@@ -38,7 +38,7 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0">
     <tbody>
         <tr>
-            <th colspan="2"><img src="https://activity-graph.herokuapp.com/graph?username=ursmahi&theme=tokyo-night" alt="Aparna's contribution timeline" /></th>
+            <th colspan="2"><img src="https://activity-graph.herokuapp.com/graph?username=ursmahi&theme=tokyo-night" alt="Mahi's contribution timeline" /></th>
         </tr>
     </tbody>
 </table>
