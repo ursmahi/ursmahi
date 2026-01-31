@@ -4,9 +4,6 @@
   ## About Me 👨‍💻
   
 - 👀 I am MAHIDHAR KAKUMANI.
-- 💻 I’m a full stack MERN developer. 
-- 🎓 I graduated in 2021 (B.Tech, ECE)
-- 🌱 I’m currently learning Kubernetes
 
 ## Tech Stack 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
