@@ -1,95 +1,140 @@
-<div align="center">
+<a href="https://selzix.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+    <img alt="Mahidhar Kakumani — Founder, Selzix. I build commerce platforms end to end, from the Postgres schema to the cluster, for humans and AI agents." src="assets/header-dark.svg" width="100%">
+  </picture>
+</a>
 
-# Hi, I'm Mahidhar Kakumani 👋
+<p>
+  <a href="https://selzix.com"><img alt="Selzix" src="https://img.shields.io/badge/selzix.com-052E1E?style=flat-square&logoColor=F0C75A&label=building&labelColor=C8941F"></a>
+  <a href="https://selzix.com/demo/"><img alt="Talk to the founder" src="https://img.shields.io/badge/talk_to_the_founder-052E1E?style=flat-square"></a>
+  <a href="https://www.linkedin.com/in/mahidharkakumani/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="https://x.com/mahikmc"><img alt="X" src="https://img.shields.io/badge/@mahikmc-000000?style=flat-square&logo=x&logoColor=white"></a>
+</p>
 
-### Full-stack developer · Building with React, Next.js & modern web tech
+I'm a founder-engineer from India. I design the schema, write the API, ship the three frontends, run the servers, and increasingly write the tools that let AI agents operate the whole thing safely.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-kmc.one-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kmc.one/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahidharkakumani/)
-[![Twitter](https://img.shields.io/badge/Twitter-@mahikmc-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/mahikmc)
-[![GitHub](https://img.shields.io/badge/GitHub-ursmahi-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ursmahi)
+## Now building — [Selzix](https://selzix.com)
 
-</div>
+**Give Selzix an Instagram handle and get back a real online store in minutes.**
+It's built for Indian sellers and D2C brands who sell through DMs today. The AI reads the account, works out what the business is, generates the copy, design and catalogue, and publishes a storefront. Customers can find the store, pay with UPI or card, and track their order. Pricing is a flat ₹5,000/month with no Selzix transaction fee.
 
----
-
-## About me
-
-I'm a developer who enjoys shipping clean UIs, solid APIs, and tools people actually want to use. I work across the stack — from polished React/Next.js frontends to MongoDB-backed backends — and I'm always sharpening how I build, deploy, and iterate.
-
-- 🔭 Currently building and shipping full-stack web apps
-- 🌱 Deepening skills in modern frontend architecture and cloud-native tooling
-- 💡 Open to collaboration on open-source and interesting product ideas
-- ⚡ Fun fact: I care as much about DX and polish as I do about shipping features
-
----
-
-## Tech stack
-
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### Backend & data
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-
-### Tools & platform
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
----
-
-## GitHub stats
-
-<div align="center">
-
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ursmahi&show_icons=true&count_private=true&include_all_commits=true&locale=en&theme=tokyonight&hide_border=true" alt="Mahidhar Kakumani's GitHub stats" />
-  <img height="180" src="https://streak-stats.demolab.com/?user=ursmahi&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
-
-</div>
-
-<br />
-
-<div align="center">
-
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ursmahi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-  <img width="48%" src="https://github-readme-activity-graph.vercel.app/graph?username=ursmahi&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" />
-
-</div>
-
----
-
-## Featured links
+```mermaid
+flowchart LR
+  IG["Instagram<br/>or Shopify"] --> AI["AI pipeline<br/>infer → generate → compose"]
+  AI --> API["Hono API on Bun<br/>+ background workers"]
+  AG(["AI agents"]) <--> MCP["MCP servers<br/>admin · seller"]
+  MCP --> API
+  API --- DATA[("Postgres · Redis<br/>Meilisearch")]
+  API --> APPS["Storefront · Seller · Admin<br/>TanStack Start"]
+  API --> EXT["Razorpay · Stripe · Dodo · UPI<br/>Shiprocket · Delhivery"]
+```
 
 | | |
 |:--|:--|
-| 🌐 **Portfolio** | [kmc.one](https://kmc.one/) |
-| 💼 **LinkedIn** | [mahidharkakumani](https://www.linkedin.com/in/mahidharkakumani/) |
-| 🐦 **Twitter / X** | [@mahikmc](https://twitter.com/mahikmc) |
-| 💻 **GitHub** | [@ursmahi](https://github.com/ursmahi) |
+| **~224k** lines of TypeScript, in one Turborepo monorepo | **1** engineer (me) |
+| **~100** Postgres tables, fully typed from DB to UI | **3** apps: storefront, seller panel, admin panel |
+| **33** storefront sections, including shoppable lookbooks, before/after sliders, bookings and multi-outlet delivery | **2** MCP servers with scoped keys, plus a screenshot service, so AI agents can build, edit and visually check stores |
+| **3** payment gateways, plus UPI, COD, GST invoicing and 29 currencies | Vitest, Playwright E2E and **visual regression** test suites |
+
+<sub>Also inside: a form builder, a blog with scheduling and SEO, stay bookings with iCal sync, custom domains, abandoned-cart recovery, customer segments, conversion funnels, web push and a seller-assist AI.</sub>
+
+## Selected work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Comparify** — quick-commerce price comparison<br>
+Queries Zepto, Blinkit and Swiggy Instamart in parallel and matches the same product across all three into one comparison card.<br>
+<sub>Hard part: matching the same product across three catalogues, and staying up when one of them goes down (circuit breaker + Redis cache).</sub><br>
+<sub>`TypeScript` `Express` `Redis` `Docker`</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**Telegram bots on the edge**<br>
+Serverless bots, including an affiliate-link rewriter and a single codebase that serves several ringtone-search bots.<br>
+<sub>Hard part: zero-ops. Every bot is a Cloudflare Worker, so there are no servers to babysit.</sub><br>
+<sub>`Cloudflare Workers` `Hono` `grammY`</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Price Tracker** — Telegram Mini App<br>
+Tracks product prices, keeps the price history and sends alerts. I built it twice: first in Node/Hono, then in FastAPI with a Redis job queue.<br>
+<sub>Hard part: scheduling price checks in the background without hammering the source sites.</sub><br>
+<sub>`Hono` `Telegraf` `FastAPI` `Redis queue` `MongoDB` `Telegram Mini Apps`</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**Earlier, in public**<br>
+[anonymousQA](https://github.com/ursmahi/anonymousQA) · [shorturl](https://github.com/ursmahi/shorturl) · [write-something](https://github.com/ursmahi/write-something) · [color-guesser](https://github.com/ursmahi/color-guesser) · [youtube-react](https://github.com/ursmahi/youtube-react) · [IoT pet feeder](https://github.com/ursmahi/Iot-based-pet-fedder-arduino)<br>
+<sub>From an Arduino pet feeder in 2019 to React apps in 2023. Everything since then lives in private repos.</sub>
+
+</td>
+</tr>
+</table>
+
+## How I build
+
+- **Agents are users too.** If an AI agent can't use a feature through a well-scoped tool, the feature isn't finished.
+- **One type system, end to end.** The Postgres schema, API validation and UI forms all come from the same types.
+- **Screenshots before claims.** Visual regression and E2E tests run before anything ships to real sellers.
+- **Own the whole path.** From `docker compose up` in production to the checkout button, I'd rather understand every layer than rent it.
+- **Ship, then sharpen.** Early users teach you more than a perfect roadmap does.
+
+## Stack
+
+<p>
+  <img alt="Languages" src="https://skillicons.dev/icons?i=ts,js,py,java&theme=dark" height="40">&nbsp;&nbsp;
+  <img alt="Frontend" src="https://skillicons.dev/icons?i=react,vite,tailwind&theme=dark" height="40">&nbsp;&nbsp;
+  <img alt="Backend" src="https://skillicons.dev/icons?i=bun,nodejs,fastapi,spring&theme=dark" height="40">&nbsp;&nbsp;
+  <img alt="Data" src="https://skillicons.dev/icons?i=postgres,redis,mongodb&theme=dark" height="40">&nbsp;&nbsp;
+  <img alt="Infra" src="https://skillicons.dev/icons?i=docker,kubernetes,aws,cloudflare,nginx,githubactions,linux&theme=dark" height="40">
+</p>
+
+<p>
+  <img alt="Hono" src="https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white">
+  <img alt="TanStack" src="https://img.shields.io/badge/TanStack-FF4154?style=flat-square&logo=reactquery&logoColor=white">
+  <img alt="Drizzle" src="https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logo=drizzle&logoColor=black">
+  <img alt="Zod" src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white">
+  <img alt="Turborepo" src="https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white">
+  <img alt="Meilisearch" src="https://img.shields.io/badge/Meilisearch-FF5CAA?style=flat-square&logo=meilisearch&logoColor=white">
+  <img alt="Better Auth" src="https://img.shields.io/badge/Better_Auth-000000?style=flat-square&logo=betterauth&logoColor=white">
+  <img alt="MCP" src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white">
+  <img alt="Vercel AI SDK" src="https://img.shields.io/badge/AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white">
+  <img alt="Razorpay" src="https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white">
+  <img alt="Stripe" src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white">
+  <img alt="Helm" src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white">
+  <img alt="Sentry" src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white">
+</p>
+
+## Latest from the Selzix blog
+
+<!-- BLOG-POST-LIST:START -->
+- [Customer Retention for Small D2C Brands: How to Get Repeat Buyers Without Ads](https://selzix-blog.selzix.com/blog/customer-retention-d2c-small-business)
+- [How to Start an Online Store in India: The Complete 2026 Beginner's Checklist](https://selzix-blog.selzix.com/blog/start-online-store-india-checklist)
+- [The Hidden Cost of "Free" Online Store Builders in India](https://selzix-blog.selzix.com/blog/hidden-cost-of-free-store-builders)
+- [How to Turn Instagram Followers Into Paying Customers (Not Just Likes)](https://selzix-blog.selzix.com/blog/turn-instagram-followers-into-customers)
+- [How to Write Product Descriptions That Sell (Not Just Instagram Captions)](https://selzix-blog.selzix.com/blog/product-descriptions-that-sell)
+<!-- BLOG-POST-LIST:END -->
+
+## Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ursmahi/ursmahi/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ursmahi/ursmahi/output/snake.svg">
+  <img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/ursmahi/ursmahi/output/snake.svg" width="100%">
+</picture>
 
 ---
 
-<div align="center">
-
-### Let's connect
-
-I'm always happy to chat about web development, open source, or collaboration ideas.
-
-[![Portfolio](https://img.shields.io/badge/Visit_Portfolio-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kmc.one/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahidharkakumani/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/mahikmc)
-
-<br />
-
-⭐️ From [ursmahi](https://github.com/ursmahi)
-
-</div>
+<p align="center">
+  <sub>Selling on Instagram? <a href="https://selzix.com">Try Selzix free for 14 days</a>. Building something in commerce or AI agents? <a href="https://x.com/mahikmc">Say hi</a>.</sub><br>
+  <sub><i>There is no END to Learning.</i></sub>
+</p>
