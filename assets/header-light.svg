@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="t d">
   <title id="t">Mahidhar Kakumani — Founder, Selzix</title>
-  <desc id="d">An Instagram handle flows through an AI pipeline into a live Selzix storefront.</desc>
+  <desc id="d">Selzix activity: a product order, a confirmed stay booking and a payout with 0% Selzix fee.</desc>
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" fill="none" stroke="#EDE8DB" stroke-width="1"/>
@@ -17,11 +17,11 @@
     <style>
       .sans{font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
       .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
-      .flow{stroke-dasharray:4 6;animation:flow 1.2s linear infinite}
+      .card{animation:rise .6s cubic-bezier(.2,.8,.2,1) both}
       .pulse{animation:pulse 2s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
-      @keyframes flow{to{stroke-dashoffset:-20}}
+      @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
       @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
-      @media (prefers-reduced-motion:reduce){.flow,.pulse{animation:none}}
+      @media (prefers-reduced-motion:reduce){.card,.pulse{animation:none}}
     </style>
   </defs>
 
@@ -38,24 +38,27 @@
   <text x="64" y="232" class="sans" font-size="20" fill="#4E5F57">Postgres schema to the cluster, for humans <tspan fill="#052E1E">and AI agents.</tspan></text>
   <text x="64" y="288" class="mono" font-size="14" fill="#7A8A82">TypeScript · Hono · TanStack · Postgres · MCP · Bun</text>
 
-  <!-- right: the Selzix pipeline -->
-  <g class="mono" font-size="15">
-    <rect x="850" y="62" width="350" height="54" rx="10" fill="#FFFFFF" stroke="#E3DCCB"/>
-    <text x="872" y="95" fill="#7A8A82">instagram</text>
-    <text x="1178" y="95" text-anchor="end" fill="#052E1E">@yourbrand</text>
-
-    <path d="M1025 116V142" stroke="#C8941F" stroke-width="2" class="flow"/>
-
-    <rect x="850" y="142" width="350" height="54" rx="10" fill="#FFFFFF" stroke="#C8941F"/>
-    <text x="872" y="175" fill="#9A6E0C">ai</text>
-    <text x="1178" y="175" text-anchor="end" fill="#052E1E">infer → design → compose</text>
-
-    <path d="M1025 196V222" stroke="#C8941F" stroke-width="2" class="flow"/>
-
-    <rect x="850" y="222" width="350" height="54" rx="10" fill="#FFFFFF" stroke="#E3DCCB"/>
-    <circle cx="880" cy="249" r="5" fill="#16A34A" class="pulse"/>
-    <text x="896" y="255" fill="#15803D">live</text>
-    <text x="1178" y="255" text-anchor="end" fill="#052E1E">yourbrand.selzix.com</text>
+  <!-- right: one workspace — orders, stays, payouts -->
+  <g class="card" style="animation-delay:0.0s">
+    <rect x="836" y="52" width="360" height="62" rx="12" fill="#FFFFFF" stroke="#E3DCCB"/>
+    <circle cx="858" cy="75" r="4.5" fill="#9A6E0C"/>
+    <text x="872" y="79" class="mono" font-size="11.5" letter-spacing="1.5" fill="#9A6E0C">NEW ORDER</text>
+    <text x="858" y="99" class="sans" font-size="14" fill="#7A8A82">Handwoven silk saree · pickup</text>
+    <text x="1174" y="90" text-anchor="end" class="sans" font-size="20" font-weight="700" fill="#052E1E">₹18,400</text>
   </g>
-  <text x="1025" y="306" text-anchor="middle" class="sans" font-size="13" fill="#7A8A82">minutes, not weeks</text>
+  <g class="card" style="animation-delay:0.25s">
+    <rect x="860" y="132" width="360" height="62" rx="12" fill="#FFFFFF" stroke="#C8941F"/>
+    <circle cx="882" cy="155" r="4.5" fill="#2563EB"/>
+    <text x="896" y="159" class="mono" font-size="11.5" letter-spacing="1.5" fill="#2563EB">STAY CONFIRMED</text>
+    <text x="882" y="179" class="sans" font-size="14" fill="#7A8A82">Sea-view villa · 3 nights</text>
+    <text x="1198" y="170" text-anchor="end" class="sans" font-size="20" font-weight="700" fill="#052E1E">₹26,500</text>
+  </g>
+  <g class="card" style="animation-delay:0.5s">
+    <rect x="836" y="212" width="360" height="62" rx="12" fill="#FFFFFF" stroke="#E3DCCB"/>
+    <circle cx="858" cy="235" r="4.5" fill="#15803D" class="pulse"/>
+    <text x="872" y="239" class="mono" font-size="11.5" letter-spacing="1.5" fill="#15803D">PAYMENT RECEIVED</text>
+    <text x="858" y="259" class="sans" font-size="14" fill="#7A8A82">Straight to your account · 0% fee</text>
+    <text x="1174" y="250" text-anchor="end" class="sans" font-size="20" font-weight="700" fill="#052E1E">₹4,900</text>
+  </g>
+  <text x="1028" y="316" text-anchor="middle" class="mono" font-size="12.5" letter-spacing="2" fill="#7A8A82">SELL IT · RENT IT · GET PAID</text>
 </svg>

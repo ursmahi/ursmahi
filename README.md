@@ -17,28 +17,63 @@ I'm a founder-engineer from India. I design the schema, write the API, ship the 
 
 ## Now building — [Selzix](https://selzix.com)
 
-**Give Selzix an Instagram handle and get back a real online store in minutes.**
-It's built for Indian sellers and D2C brands who sell through DMs today. The AI reads the account, works out what the business is, generates the copy, design and catalogue, and publishes a storefront. Customers can find the store, pay with UPI or card, and track their order. Pricing is a flat ₹5,000/month with no Selzix transaction fee.
+**Sell it. Rent it. Get paid for it. One workspace.**
+Selzix gives Indian sellers and hosts their own store on their own link. They can sell products, rooms and stays, the payments go straight to them, and Selzix takes 0% in fees. It costs a flat ₹5,000/month, and the first 14 days are free with no card.
 
-```mermaid
-flowchart LR
-  IG["Instagram<br/>or Shopify"] --> AI["AI pipeline<br/>infer → generate → compose"]
-  AI --> API["Hono API on Bun<br/>+ background workers"]
-  AG(["AI agents"]) <--> MCP["MCP servers<br/>admin · seller"]
-  MCP --> API
-  API --- DATA[("Postgres · Redis<br/>Meilisearch")]
-  API --> APPS["Storefront · Seller · Admin<br/>TanStack Start"]
-  API --> EXT["Razorpay · Stripe · Dodo · UPI<br/>Shiprocket · Delhivery"]
-```
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🚀 Start from what you already have**<br>
+<sub>Turn Instagram posts into products, copy a Shopify catalogue across, add products from photos on your phone, or start from scratch. If you're too busy, AI builds the whole store for you: brand, copy, design and catalogue.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**🛍️ Sell products**<br>
+<sub>Variants and inventory. Pickup, delivery slots, outlets, opening hours and holiday closures. Minimum order values, international shipping and 29 currencies.</sub>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**🏡 Rent out stays**<br>
+<sub>Rooms, villas and homestays with nightly rates, an availability calendar, direct bookings and iCal sync with other booking calendars. Products and stays can live in one mixed workspace.</sub>
+
+</td>
+<td valign="top">
+
+**💸 Get paid, stay compliant**<br>
+<sub>The seller's own Razorpay or Stripe account, direct UPI or cash on delivery, and 0% Selzix fee. GST invoices with HSN codes and CGST/SGST/IGST splits, plus a GST return report. Shipping through Shiprocket and Delhivery.</sub>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**🎨 Look like a real brand**<br>
+<sub>8 brand kits, each a full design system. A visual editor with version history and preview, 33 section types including shoppable lookbooks and before/after sliders, a form builder, and custom domains with automatic SSL.</sub>
+
+</td>
+<td valign="top">
+
+**📈 Grow and bring buyers back**<br>
+<sub>Coupons and automatic offers, reviews, abandoned-cart recovery, customer segments, and funnel analytics from visit to paid order. A built-in blog with SEO and scheduled posts, and Core Web Vitals monitoring for every storefront.</sub>
+
+</td>
+</tr>
+</table>
+
+**🤖 Agent-native.** Admin and seller MCP servers with scoped keys let AI agents build, redesign and check stores safely. A screenshot service lets them see their own work.
+
+**Under the hood**
 
 | | |
 |:--|:--|
 | **~224k** lines of TypeScript, in one Turborepo monorepo | **1** engineer (me) |
-| **~100** Postgres tables, fully typed from DB to UI | **3** apps: storefront, seller panel, admin panel |
-| **33** storefront sections, including shoppable lookbooks, before/after sliders, bookings and multi-outlet delivery | **2** MCP servers with scoped keys, plus a screenshot service, so AI agents can build, edit and visually check stores |
-| **3** payment gateways, plus UPI, COD, GST invoicing and 29 currencies | Vitest, Playwright E2E and **visual regression** test suites |
-
-<sub>Also inside: a form builder, a blog with scheduling and SEO, stay bookings with iCal sync, custom domains, abandoned-cart recovery, customer segments, conversion funnels, web push and a seller-assist AI.</sub>
+| **~100** Postgres tables, typed end to end with Drizzle | **3** apps built with TanStack Start: storefront, seller dashboard and admin |
+| **Hono** API on **Bun**, plus Redis, Meilisearch and background workers | Vitest, Playwright E2E and **visual regression** test suites |
 
 ## Selected work
 
