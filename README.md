@@ -75,45 +75,22 @@ Selzix gives Indian sellers and hosts their own store on their own link. They ca
 | **~100** Postgres tables, typed end to end with Drizzle | **3** apps built with TanStack Start: storefront, seller dashboard and admin |
 | **Hono** API on **Bun**, plus Redis, Meilisearch and background workers | Vitest, Playwright E2E and **visual regression** test suites |
 
-## Selected work
+## Also running — [@RingtoneRobot](https://t.me/RingtoneRobot)
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**A Telegram bot that has reached 1.5M+ users.** Send it any song or movie name and it replies with ringtones in seconds. There are no commands to learn and no app to install. It has been running since 2021, and about 25K people still use it every month.
 
-**Comparify** — quick-commerce price comparison<br>
-Queries Zepto, Blinkit and Swiggy Instamart in parallel and matches the same product across all three into one comparison card.<br>
-<sub>Hard part: matching the same product across three catalogues, and staying up when one of them goes down (circuit breaker + Redis cache).</sub><br>
-<sub>`TypeScript` `Express` `Redis` `Docker`</sub>
+| **1.5M+** users reached | **~25K** monthly users | **Since 2021** | **4** rebuilds, ending up serverless |
+|:--:|:--:|:--:|:--:|
 
-</td>
-<td width="50%" valign="top">
+**What it took to keep a 1M+ user bot alive on a solo budget:**
 
-**Telegram bots on the edge**<br>
-Serverless bots, including an affiliate-link rewriter and a single codebase that serves several ringtone-search bots.<br>
-<sub>Hard part: zero-ops. Every bot is a Cloudflare Worker, so there are no servers to babysit.</sub><br>
-<sub>`Cloudflare Workers` `Hono` `grammY`</sub>
+- **Broadcasting to 1M+ users under Telegram's ~30 msg/s cap.** A Cloudflare Queue consumer sends in paced 25 msg/s waves. It respects `429 retry_after`, retries failed sends, and moves messages that keep failing to a dead-letter queue.
+- **Crash-safe resume.** Broadcast progress is checkpointed in D1, which is strongly consistent, rather than KV, so a restart continues from where it stopped instead of re-sending. Users who block the bot are pruned in chunks that stay under SQLite's limit on bound variables.
+- **Moving 1.19M users to serverless.** I moved the bot from a Python + MongoDB server to Cloudflare Workers and batch-imported the whole user base into D1.
+- **One deployment, many bots.** A single Worker serves several bot identities, each with its own webhook route and its own user table.
+- **Search that doesn't go down.** Queries fall back across several ringtone sources, so a broken upstream never means an empty reply.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Price Tracker** — Telegram Mini App<br>
-Tracks product prices, keeps the price history and sends alerts. I built it twice: first in Node/Hono, then in FastAPI with a Redis job queue.<br>
-<sub>Hard part: scheduling price checks in the background without hammering the source sites.</sub><br>
-<sub>`Hono` `Telegraf` `FastAPI` `Redis queue` `MongoDB` `Telegram Mini Apps`</sub>
-
-</td>
-<td width="50%" valign="top">
-
-**Earlier, in public**<br>
-[anonymousQA](https://github.com/ursmahi/anonymousQA) · [shorturl](https://github.com/ursmahi/shorturl) · [write-something](https://github.com/ursmahi/write-something) · [color-guesser](https://github.com/ursmahi/color-guesser) · [youtube-react](https://github.com/ursmahi/youtube-react) · [IoT pet feeder](https://github.com/ursmahi/Iot-based-pet-fedder-arduino)<br>
-<sub>From an Arduino pet feeder in 2019 to React apps in 2023. Everything since then lives in private repos.</sub>
-
-</td>
-</tr>
-</table>
+<sub>`TypeScript` `Hono` `Cloudflare Workers` `D1` `KV` `Queues` · earlier versions: `Python` `aiogram` `FastAPI` `MongoDB` `Redis`</sub>
 
 ## How I build
 
