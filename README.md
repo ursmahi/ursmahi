@@ -130,10 +130,10 @@ Selzix gives Indian sellers and hosts their own store on their own link. They ca
 
 <!-- BLOG-POST-LIST:START -->
 - [Customer Retention for Small D2C Brands: How to Get Repeat Buyers Without Ads](https://selzix-blog.selzix.com/blog/customer-retention-d2c-small-business)
-- [How to Start an Online Store in India: The Complete 2026 Beginner's Checklist](https://selzix-blog.selzix.com/blog/start-online-store-india-checklist)
-- [The Hidden Cost of "Free" Online Store Builders in India](https://selzix-blog.selzix.com/blog/hidden-cost-of-free-store-builders)
-- [How to Turn Instagram Followers Into Paying Customers (Not Just Likes)](https://selzix-blog.selzix.com/blog/turn-instagram-followers-into-customers)
-- [How to Write Product Descriptions That Sell (Not Just Instagram Captions)](https://selzix-blog.selzix.com/blog/product-descriptions-that-sell)
+- [How to Start an Online Store in India: The Complete 2026 Beginner&#39;s Checklist](https://selzix-blog.selzix.com/blog/start-online-store-india-checklist)
+- [The Hidden Cost of &quot;Free&quot; Online Store Builders in India](https://selzix-blog.selzix.com/blog/hidden-cost-of-free-store-builders)
+- [How to Turn Instagram Followers Into Paying Customers &lpar;Not Just Likes&rpar;](https://selzix-blog.selzix.com/blog/turn-instagram-followers-into-customers)
+- [How to Write Product Descriptions That Sell &lpar;Not Just Instagram Captions&rpar;](https://selzix-blog.selzix.com/blog/product-descriptions-that-sell)
 <!-- BLOG-POST-LIST:END -->
 
 ## Activity
