@@ -129,11 +129,11 @@ Selzix gives Indian sellers and hosts their own store on their own link. They ca
 ## Latest from the Selzix blog
 
 <!-- BLOG-POST-LIST:START -->
-- [Customer Retention for Small D2C Brands: How to Get Repeat Buyers Without Ads](https://selzix-blog.selzix.com/blog/customer-retention-d2c-small-business)
-- [How to Start an Online Store in India: The Complete 2026 Beginner&#39;s Checklist](https://selzix-blog.selzix.com/blog/start-online-store-india-checklist)
-- [The Hidden Cost of &quot;Free&quot; Online Store Builders in India](https://selzix-blog.selzix.com/blog/hidden-cost-of-free-store-builders)
-- [How to Turn Instagram Followers Into Paying Customers &lpar;Not Just Likes&rpar;](https://selzix-blog.selzix.com/blog/turn-instagram-followers-into-customers)
-- [How to Write Product Descriptions That Sell &lpar;Not Just Instagram Captions&rpar;](https://selzix-blog.selzix.com/blog/product-descriptions-that-sell)
+- [Shipping Charges in India: Volumetric Weight, Zones and Free Shipping](https://selzix.com/blog/how-to-calculate-shipping-charges-india)
+- [Razorpay Account Activation: Documents, Website Checks and Rejections](https://selzix.com/blog/razorpay-account-activation-checklist)
+- [Customer Retention for Small D2C Brands: How to Get Repeat Buyers Without Ads](https://selzix.com/blog/customer-retention-d2c-small-business)
+- [How to Start an Online Store in India: The Complete 2026 Beginner&#39;s Checklist](https://selzix.com/blog/start-online-store-india-checklist)
+- [The Hidden Cost of &quot;Free&quot; Online Store Builders in India](https://selzix.com/blog/hidden-cost-of-free-store-builders)
 <!-- BLOG-POST-LIST:END -->
 
 ## Activity
