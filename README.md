@@ -129,11 +129,11 @@ Selzix gives Indian sellers and hosts their own store on their own link. They ca
 ## Latest from the Selzix blog
 
 <!-- BLOG-POST-LIST:START -->
+- [Stripe India Charges in 2026: Fees by Payment Method, With Worked Examples](https://selzix.com/blog/stripe-india-payment-gateway-charges)
+- [Razorpay Charges in 2026: Fees by Payment Method, With Worked Examples](https://selzix.com/blog/razorpay-payment-gateway-charges)
 - [Selling footwear online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-footwear-online-india)
 - [Selling candles online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-candles-online-india)
 - [Selling homemade cakes and bakes online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-homemade-cakes-and-bakes-online-india)
-- [Zoho Commerce Pricing in India &lpar;2026&rpar;: Plans in Rupees and What You Really Pay](https://selzix.com/blog/zoho-commerce-pricing-india)
-- [Shopify Pricing in India &lpar;2026&rpar;: Plans in Rupees and What You Really Pay](https://selzix.com/blog/shopify-pricing-india)
 <!-- BLOG-POST-LIST:END -->
 
 ## Activity
