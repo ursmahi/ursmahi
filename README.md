@@ -129,11 +129,11 @@ Selzix gives Indian sellers and hosts their own store on their own link. They ca
 ## Latest from the Selzix blog
 
 <!-- BLOG-POST-LIST:START -->
+- [Selling ghee online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-ghee-online-india)
+- [Selling gold jewellery online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-gold-jewellery-online-india)
+- [Selling handbags online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-handbags-online-india)
 - [Stripe India Charges in 2026: Fees by Payment Method, With Worked Examples](https://selzix.com/blog/stripe-india-payment-gateway-charges)
 - [Razorpay Charges in 2026: Fees by Payment Method, With Worked Examples](https://selzix.com/blog/razorpay-payment-gateway-charges)
-- [Selling footwear online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-footwear-online-india)
-- [Selling candles online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-candles-online-india)
-- [Selling homemade cakes and bakes online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-homemade-cakes-and-bakes-online-india)
 <!-- BLOG-POST-LIST:END -->
 
 ## Activity
