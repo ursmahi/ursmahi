@@ -129,11 +129,11 @@ Selzix gives Indian sellers and hosts their own store on their own link. They ca
 ## Latest from the Selzix blog
 
 <!-- BLOG-POST-LIST:START -->
+- [Selling tea online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-tea-online-india)
+- [Selling sarees online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-sarees-online-india)
 - [Selling masala and spice mixes online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-masala-and-spice-mixes-online-india)
 - [Selling namkeen and Indian sweets online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-namkeen-and-indian-sweets-online-india)
 - [Selling homemade pickles online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-homemade-pickles-online-india)
-- [Selling imitation jewellery online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-imitation-jewellery-online-india)
-- [Selling handmade soap online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-handmade-soap-online-india)
 <!-- BLOG-POST-LIST:END -->
 
 ## Activity
