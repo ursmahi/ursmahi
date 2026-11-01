@@ -129,11 +129,11 @@ Selzix gives Indian sellers and hosts their own store on their own link. They ca
 ## Latest from the Selzix blog
 
 <!-- BLOG-POST-LIST:START -->
+- [PhonePe Payment Gateway Charges &lpar;2026&rpar;: 1.99%, Setup Fee and Offer](https://selzix.com/blog/phonepe-payment-gateway-charges)
 - [Discounts That Don&#39;t Eat Your Margin: Coupon Maths for Small Stores](https://selzix.com/blog/discount-strategy-small-online-store)
 - [Selling tea online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-tea-online-india)
 - [Selling sarees online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-sarees-online-india)
 - [Selling masala and spice mixes online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-masala-and-spice-mixes-online-india)
-- [Selling namkeen and Indian sweets online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-namkeen-and-indian-sweets-online-india)
 <!-- BLOG-POST-LIST:END -->
 
 ## Activity
