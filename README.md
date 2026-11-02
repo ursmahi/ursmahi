@@ -129,11 +129,11 @@ Selzix gives Indian sellers and hosts their own store on their own link. They ca
 ## Latest from the Selzix blog
 
 <!-- BLOG-POST-LIST:START -->
-- [PhonePe Payment Gateway Charges &lpar;2026&rpar;: 1.99%, Setup Fee and Offer](https://selzix.com/blog/phonepe-payment-gateway-charges)
-- [Discounts That Don&#39;t Eat Your Margin: Coupon Maths for Small Stores](https://selzix.com/blog/discount-strategy-small-online-store)
-- [Selling tea online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-tea-online-india)
-- [Selling sarees online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-sarees-online-india)
-- [Selling masala and spice mixes online in India: licences, GST rate and label rules](https://selzix.com/blog/sell-masala-and-spice-mixes-online-india)
+- [Homestay registration in West Bengal: fees, rules and documents](https://selzix.com/blog/homestay-registration-west-bengal)
+- [Homestay registration in Uttar Pradesh: fees, rules and documents](https://selzix.com/blog/homestay-registration-uttar-pradesh)
+- [Homestay registration in Uttarakhand: fees, rules and documents](https://selzix.com/blog/homestay-registration-uttarakhand)
+- [Homestay registration in Kerala: fees, rules and documents](https://selzix.com/blog/homestay-registration-kerala)
+- [Homestay registration in Karnataka: fees, rules and documents](https://selzix.com/blog/homestay-registration-karnataka)
 <!-- BLOG-POST-LIST:END -->
 
 ## Activity
