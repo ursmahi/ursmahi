@@ -129,11 +129,11 @@ Selzix gives Indian sellers and hosts their own store on their own link. They ca
 ## Latest from the Selzix blog
 
 <!-- BLOG-POST-LIST:START -->
+- [How Small Brands Get Their First 50 Genuine Product Reviews](https://selzix.com/blog/how-to-get-product-reviews-small-brand)
 - [Homestay registration in West Bengal: fees, rules and documents](https://selzix.com/blog/homestay-registration-west-bengal)
 - [Homestay registration in Uttar Pradesh: fees, rules and documents](https://selzix.com/blog/homestay-registration-uttar-pradesh)
 - [Homestay registration in Uttarakhand: fees, rules and documents](https://selzix.com/blog/homestay-registration-uttarakhand)
 - [Homestay registration in Kerala: fees, rules and documents](https://selzix.com/blog/homestay-registration-kerala)
-- [Homestay registration in Karnataka: fees, rules and documents](https://selzix.com/blog/homestay-registration-karnataka)
 <!-- BLOG-POST-LIST:END -->
 
 ## Activity
