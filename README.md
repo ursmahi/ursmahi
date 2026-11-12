@@ -129,11 +129,11 @@ Selzix gives Indian sellers and hosts their own store on their own link. They ca
 ## Latest from the Selzix blog
 
 <!-- BLOG-POST-LIST:START -->
+- [Taking Cake Orders Online From Home: FSSAI, Cut-Offs and Pickup Slots](https://selzix.com/blog/home-bakery-online-orders-india)
 - [What WhatsApp Order Updates Really Cost in India &lpar;2026 Rates&rpar;](https://selzix.com/blog/whatsapp-business-api-cost-india)
 - [How to Start a Home Tiffin or Meal-Plan Service in India &lpar;2026&rpar;: Registration and Taking Weekly Orders](https://selzix.com/blog/how-to-start-tiffin-service-from-home-india)
 - [How to Start a Cloud Kitchen From Home in India &lpar;2026&rpar;: Licences, Order Channels and a Launch Order](https://selzix.com/blog/how-to-start-cloud-kitchen-from-home-india)
 - [Can You Sell Homemade Food Online in India? FSSAI, GST and What Your Website Must Show &lpar;2026&rpar;](https://selzix.com/blog/sell-homemade-food-online-legally-india)
-- [Starting a cloud kitchen in Hyderabad: FSSAI, trade licence and steps &lpar;2026&rpar;](https://selzix.com/blog/start-cloud-kitchen-in-hyderabad)
 <!-- BLOG-POST-LIST:END -->
 
 ## Activity
