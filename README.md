@@ -25,11 +25,11 @@ A Telegram bot that sends you ringtones for any song or movie you name. Running 
 ## Latest from the Selzix blog
 
 <!-- BLOG-POST-LIST:START -->
+- [How to get direct bookings as an Airbnb host in India, within the rules](https://selzix.com/blog/get-direct-bookings-airbnb-host)
 - [Airbnb vs Booking.com vs MakeMyTrip &lpar;and Agoda&rpar; for homestay hosts in India](https://selzix.com/blog/airbnb-vs-booking-com-vs-makemytrip-for-hosts)
 - [How to become an Airbnb host in India &lpar;2026&rpar;: rules, payouts, bookings](https://selzix.com/blog/how-to-become-airbnb-host-india)
 - [Airbnb Host Fees in India &lpar;2026&rpar;: What You Pay on Every Booking](https://selzix.com/blog/airbnb-host-fees-india)
 - [Taking Cake Orders Online From Home: FSSAI, Cut-Offs and Pickup Slots](https://selzix.com/blog/home-bakery-online-orders-india)
-- [What WhatsApp Order Updates Really Cost in India &lpar;2026 Rates&rpar;](https://selzix.com/blog/whatsapp-business-api-cost-india)
 <!-- BLOG-POST-LIST:END -->
 
 <picture>
